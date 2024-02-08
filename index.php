@@ -9,7 +9,8 @@
 </head>
 
 <body>
-    <div id="logo">
+    <!-- modification -->
+<div id="logo">
         <img src="./assets/img/zoom_logo_only.png" alt="">
     </div>
     <div id="connect">
