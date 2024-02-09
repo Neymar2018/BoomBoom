@@ -10,6 +10,9 @@
 </head>
 
 <body>
+    <header>
+        <?php include ("./inc/menu.php"); ?>
+    </header>
     <h1>Welcome to BOOMBOOM</h1>
     <form action="" name="etape1">
         <div class="champs">

@@ -11,19 +11,6 @@ $titre5 = $_POST["titre5"];
 $rq = "UPDATE `user` SET `titre1`='$titre1',`titre2`='$titre2',`titre3`='$titre3',`titre4`='$titre4',`titre5`='$titre5' WHERE email = '$email'";
 $update = $pdo->prepare($rq);
 $update->execute();
+header("location: ./match.php?email=".$email);
 ?>
 
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-
-<body>
-
-</body>
-
-</html>

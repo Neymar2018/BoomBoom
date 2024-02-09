@@ -44,7 +44,7 @@ if (isset($_POST["submited"])) {
 </head>
 
 <body>
-    Hello world
+    <?php include("./inc/menu.php"); ?>
     <?php
     /* Ici je déclare une variable avec le signe $ attaché */
     $unePhrase = "Hello world again!";
